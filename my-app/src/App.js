@@ -1,12 +1,18 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import TOC from './components/TOC';
+import Subject from './components/Subject';
+import Content from './components/Content';
+
+
 
 class App extends Component {
   render(){
     return (
       <div className="App">
-        Hello, React!!
+        <Subject title="123123" sub="subsubsubsub"></Subject>
+        <TOC></TOC>
+        <Content></Content>
       </div>
     );
   }
